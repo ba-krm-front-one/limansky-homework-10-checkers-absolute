@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	background-color: grey;
+	width: 640px;
+	height: 640px;
+
+}
+ul>li{
+	position: relative;
+	margin:0px;
+
+}
+ul li div {
+	width: 80px;
+	height: 80px;
+	position: relative;
+	/*position: relative;*/
+	/*display: inline-block;
+	background-color: red;
+	border: 3px black;*/
+}
+.line7 li:nth-child(odd),
+.line5 li:nth-child(odd),
+.line3 li:nth-child(odd),
+.line1 li:nth-child(odd){
+	background-color: brown;
+}
+.line8 li:nth-child(even),
+.line6 li:nth-child(even),
+.line4 li:nth-child(even),
+.line2 li:nth-child(even) {
+	background-color: brown;
+}
+ul>section{
+	display: inline-block;
+	list-style: none;
+	margin: -2.2px;
+}
+
+li div img {
+	position: absolute;
+	left: 2px;
+}
+li .hohlidiv {
+	right: -80px;
+}
+li .dnrdiv {
+	left: -80px;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
